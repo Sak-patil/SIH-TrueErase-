@@ -1,0 +1,49 @@
+.hero-section {
+  text-align: center;
+  padding: 80px 0;
+}
+.hero-section h1 {
+  font-size: 3rem;
+  color: var(--heading-color);
+  margin-bottom: 20px;
+}
+.cta-button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+}
+.verification-portal {
+  padding: 60px 0;
+  text-align: center;
+}
+.verification-box {
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+.verification-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+input[type="file"] {
+  display: none;
+}
+.upload-button {
+  cursor: pointer;
+}
+.file-name {
+  margin-top: 15px;
+  color: var(--text-color);
+}
+.verification-status .status {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.verifying { color: var(--text-color); }
+.authentic { color: var(--success-color); }
+.invalid { color: var(--danger-color); }
